@@ -35,17 +35,17 @@ L1 = [
 ]
 
 # Define constants vector (b)
-L2 = [45, 345]
+L2 = [20, 31.25]
 
 # Solve the system
 solution = gaussian_elimination(L1, L2)
-# Output: [60.0, -9.375]
+# Output: [5.0, 1.25]
 ```
 
 This solves the system:
 ```
-2x + 8y = 45
-5x + 5y = 345
+2x + 8y = 20
+5x + 5y = 31.25
 ```
 
 ### 3x3 System Example
